@@ -5,7 +5,7 @@
 #### ниже приведены примеры компиляции и запуска
 
 ```shell
-$ gcc 1.c -o 1
+$ gcc 1.c -o 1 -std=c99
 
 $ ./1
 Write days count
@@ -27,7 +27,7 @@ Stop program
 ### Перевод из Кельвин в Фаренгейты и обратно
 
 ```shell
-$ gcc 2.c -o 2
+$ gcc 2.c -o 2 -std=c99
 $ ./2
 Choose option
 1) from F to K
@@ -59,7 +59,7 @@ Stop program
 ## Запись и чтение из массива
 
 ```shell
-$ gcc 3.c -o 3
+$ gcc 3.c -o 3 -std=c99
 $ ./3
 Write 8 numbers
 321
@@ -79,7 +79,7 @@ Write 8 numbers
 ## Подсчет Кол-во отрицательных чисел в строке массива
 
 ```shell
-$ gcc 4.c -o 4
+$ gcc 4.c -o 4 -std=c99
 $ ./4
 Generate and sort row of array with size n*m
 Enter n size:
@@ -110,6 +110,7 @@ line 3 contains 3 negative value:
 ## Сортировка строки массива
 
 ```shell
+$ gcc 5.c -o 5 -std=c99
 $ ./5
 Generate and sort row of array with size n*m
 Enter n size:
